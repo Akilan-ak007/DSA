@@ -12,14 +12,14 @@ public class fivePAttern {
          *
          */
         
-                 pattern5 (4);
+                 pattern5 (5);
  
     }
 
     static void pattern5(int n){
         for (int row = 0; row < 2*n; row++) {
-            int c =;
-            for (int col = 0; col < c; col++) {
+            int totalColsInRows = row > n ? 2 * n - row : row;
+            for (int col = 0; col < totalColsInRows; col++) {
                 System.out.print("*" + " ");
             }
             System.out.println();
