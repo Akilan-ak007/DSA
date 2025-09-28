@@ -18,7 +18,7 @@ public class insertionSort {
         }
         System.out.println();
     }
-    public stati.   wc void main(String args[]) {
+    public static  void main(String args[]) {
         int arr[] = {13, 46, 24, 52, 20, 9};
         int n = arr.length;
         System.out.println("Before Using insertion Sort: ");
@@ -27,7 +27,6 @@ public class insertionSort {
         }
         System.out.println();
         insertion_sort(arr, n);
-
 
     }
 
