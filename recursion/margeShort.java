@@ -11,7 +11,7 @@ public class margeShort {
     }
     static  int[] mrg(int[] arr){
         if(arr.length==1){
-           return arr;
+           return arr   
         }
         //to divide the arr in to two ;
         int mid = arr.length/2;
